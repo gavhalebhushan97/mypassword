@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'pw';
+  password = ''
+
+  onClickedButton(){
+    this.password = 'My Password'
+  }
 }
